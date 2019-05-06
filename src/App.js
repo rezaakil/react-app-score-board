@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Title from './components/Title'
 import LightSwitch from './components/LightSwitch'
+import User from './components/User'
+
 
 
 
@@ -18,6 +20,10 @@ class App extends Component {
         <main>
           <Title content="Some Simple Title" />
           <LightSwitch />
+          <User name="Chuck"  />
+          <User name="Bruce"  />
+          <User name="Arnold"  />
+          <User name="Sly"  />
         </main>
       </div>
     );
